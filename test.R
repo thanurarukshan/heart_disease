@@ -132,9 +132,9 @@ pca_data <- scale(numeric_df)
 pca_result <- prcomp(pca_data, center = TRUE, scale. = TRUE)
 
 # Biplot
-print(fviz_pca_biplot(pca_result, 
-                repel = TRUE, 
-                col.var = "red", 
+print(fviz_pca_biplot(pca_result,
+                repel = TRUE,
+                col.var = "red",
                 col.ind = "steelblue",
                 title = "PCA Biplot - First Two Principal Components"))
 
