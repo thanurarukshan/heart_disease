@@ -11,7 +11,7 @@ library(tidyr)
 library(patchwork)  # Optional for combining plots
 
 # Load the dataset
-df <- read_csv("C:\\Users\\thanu\\Desktop\\Applied_Stat_Assignment\\heart_disease.csv")
+df <- read_csv("heart_disease.csv")
 
 # Check structure
 glimpse(df)
